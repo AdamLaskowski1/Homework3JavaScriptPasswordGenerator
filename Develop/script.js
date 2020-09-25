@@ -13,7 +13,7 @@ var userLength = parseInt(prompt("Enter password length. Must be between 1-128 c
 // Recalls user to re-enter password length if it does not meet perameters (creates while loop unitl condition is false)
 // Used logical 'or' operator for password being within 8-128 requirement
 while (isNaN(userLength)===true || userLength < 8 || 128 < userLength) {
-  alert ("Invalid. Enter a number between 8 and 128");
+  alert ("Invalid selection. Please enter a number between 8 and 128");
   userLength = parseInt (prompt("Enter password length"));
 }
 
