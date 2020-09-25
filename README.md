@@ -6,7 +6,7 @@ The deployable website includes user dialog boxes and a button to assist the use
 
 * Prompt for password length
   * This prompts user to enter password length with a number between 8 and 128.
-  * If password is not between 8-128 characters user will recieve an alert stating the value entered is not a number between 1-128 and will display the prompt again.
+  * If password is not between 8-128 characters user will receive an alert stating the value entered is not a number between 1-128 and will display the prompt again.
 
 * Confirm
   * Multiple confirm boxes will also be displayed for user to select what characters they would like in the random password.
