@@ -54,9 +54,9 @@ function writePassword() {
 }
 
 function generatePassword() {
-  var result = ""
+  var result = "";
 
-  // while loop statement
+  // while loop statement selecting random characters from each array selected
   while (result.length !== userLength) {
 
     if (confirmCapital === true && result.length !== userLength) {
