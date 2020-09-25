@@ -8,7 +8,7 @@ var specialCharacters = ["~","`","!","@","#","$","%","^","&","*","(",")","<",">"
 var numbers = [0,1,2,3,4,5,6,7,8,9];
 
 // Used parseInt function to turn string into number and prompted user for password length
-var userLength = parseInt(prompt("Enter password length"));
+var userLength = parseInt(prompt("Enter password length. Must be between 1-128 characters"));
 
 // Recalls user to re-enter password length if it does not meet perameters (creates while loop unitl condition is false)
 // Used logical 'or' operator for password being within 8-128 requirement
